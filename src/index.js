@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ // this is making api call twice in local not in build just to check incomsistancy of data in api calls / rendering components couple of time 
+  <React.StrictMode> 
     <App />
   </React.StrictMode>
 );

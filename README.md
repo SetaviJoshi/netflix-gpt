@@ -15,3 +15,5 @@
 
  
 https://github.com/SetaviJoshi/netflix-gpt
+
+using firebase for authentication
