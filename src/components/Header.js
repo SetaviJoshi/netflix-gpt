@@ -43,6 +43,7 @@ const Header = () => {
     // Unsiubscribe when component unmounts
     return () => unsubscribe();
   }, []);
+
   return (
     <div className="absolute px-8 w-screen py-2 bg-gradient-to-b flex justify-between from-black z-10">
         <img className="w-44" src= {LOGO_URL}
